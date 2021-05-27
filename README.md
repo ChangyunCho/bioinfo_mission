@@ -6,7 +6,7 @@
 4) visualize 
 
 ### Second mission 21.05.27
-1) Preprocess GTF files
+1) Preprocess GTF files \n
    1-1) grep '	start_codon	' gencode.gtf | grep '+' | grep 'transcript_support_level "1"' | 
         sed -e 's/	[^ ]*transcript_id "\([^"]*\)".*$/	\1/g' > gencode-start.gtf
    1-2) grep '	exon	' gencode.gtf | grep '+' | 
