@@ -28,4 +28,16 @@
 
 2) Draw plot with fivepcounts-filtered-RPF-siLuc.txt file (python code)
 
+
+### Third mission
+
+
+### Final mission 2021.06.12
+1) Identify DEGs with RNA-seq data
+
+2) Obtain mouse PPI network from StringDB
+
+3) Run Network propagation
+   command : python network_analysis.py [network_file_name] [seed_list_file]
+
 _Changyun Joe_
